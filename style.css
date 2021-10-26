@@ -116,14 +116,14 @@ i{
 	/*/////make sildeable the pics/:/;*/
 }
 
-@media only screen and (min-device-width:1900px) {
+@media only screen and (min-device-width:1600px) {
 	html{font-size: 1.5rem;}
 	.container{grid-template-columns:16.3rem 16.3rem 16.3rem 16.3rem 16.3rem 16.3rem; grid-gap: 1.5rem; }
 	img{width: 16rem; height: 15rem;}
 }
 
 @media only screen and (min-device-width:1900px) {
-	html{font-size: 1.5rem;}
+	html{font-size: 1.8rem;}
 	.container{grid-template-columns:16.3rem 16.3rem 16.3rem 16.3rem 16.3rem 16.3rem; grid-gap: 1.5rem; }
 	img{width: 16rem; height: 15rem;}
 }

@@ -125,3 +125,30 @@ section div:nth-of-type(5){
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
 }
+
+
+@media only screen and (min-device-width: 280px)and (max-device-width: 767px) {
+	html{font-size:1rem;}
+	section{width: 100%;}
+	section img{width: 20rem; height: 15rem;}
+	section div{height: 30vw;}
+	h1{font-size: 4rem;}
+	h2{font-size: 2rem}
+	.box{grid-template-columns: 11rem 11rem;}
+	.gallery{width: 10rem; height: 10rem;}
+}
+@media only screen and (min-device-width:768px)and (max-device-width: 1365px){
+	html{font-size:1.2rem}
+	section{width: 100%;}
+	section img{width: 25rem; height: 20rem;}
+	section div{height: 25vw;}
+	h1{font-size: 4rem;}
+	h2{font-size: 2rem}
+	.gallery{width: 13rem; height: 13rem;}
+}
+@media only screen and (min-device-width:1600px) {
+	html{font-size: 1.5rem;}
+}
+@media only screen and (min-device-width:1900px) {
+	html{font-size: 1.8rem;}
+}

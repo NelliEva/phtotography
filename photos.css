@@ -1,6 +1,9 @@
 html{font-size: 100%;}
 html, body{
 	text-align: center;
+	-webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
 }
 .container{
 	display: grid;
@@ -10,7 +13,17 @@ html, body{
 	margin-bottom: 1rem;
 	grid-gap: 1rem;
 	text-align: center;
+	}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
+
 .grid{
 	display: flex;
 	text-align: center;
@@ -105,16 +118,16 @@ i{
 
 @media only screen and (min-device-width: 280px)and (max-device-width: 767px) {
 	html{font-size:1rem;}
-	.container{grid-template-columns: 12rem 12rem;}
-	img{width: 11.5rem; height: 11.5rem;}
+	.container{grid-template-columns: 10.5rem 10.5rem;}
+	img{width: 10rem; height: 10rem;}
 	.active{width: 22rem; height: 22rem; margin-left: -11rem;}
 	/*/////make sildeable the pics/:/;*/
 }
 
 @media only screen and (min-device-width:768px)and (max-device-width: 1365px){
 	html{font-size:1.2rem}
-	.container{grid-template-columns: 12rem 12rem 12rem;grid-gap: 1.5rem;}
-	img{width: 11.6rem; height: 11.6rem;}
+	.container{grid-template-columns: 12rem 12rem 12rem;grid-gap: 1.2rem;}
+	img{width: 11.5rem; height: 11.5rem;}
 	/*/////make sildeable the pics/:/;*/
 }
 
